@@ -7,8 +7,9 @@ const Home = () => {
             <p>✓ Comprá sin mínimos de compra</p> 
             <p>✓ Pagá seguro con MercadoPago</p> 
             <p>✓ Hacemos factura A</p>
+
         </div>
-    )
+    );
 };
 
 export default Home;
