@@ -1,11 +1,11 @@
+import './About.css';
 
 const About = () => {
     return (
         <div className = "about">
-            <h1>About</h1>
+            <h1>Quiénes Somos</h1>
                <p>
-               Quiénes Somos
-               Federal Stock, es una empresa que se dedica a la importación, comercialización y distribución mayorista
+               Misiotronica, es una empresa familiar que se dedica a la importación, comercialización y distribución
                en todo el país de productos y accesorios electronicos, con mas de 15 años de experiencia.
 
                Esto nos permite posicionarnos como una compañia reconocida por su seriedad, responsabilidad y excelente atención.
@@ -21,7 +21,7 @@ const About = () => {
 
                Para estar mas cerca de nuestros clientes, ofrecemos el envió de nuestros productos a todo el país de manera 
                rápida, segura y eficaz.
-               Ante cualquier duda, nos podes escribir a electro@federalstock.com.ar
+               Ante cualquier duda, nos podes escribir a contaco@misiotronica.com.ar
                </p>
         </div>
     )

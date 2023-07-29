@@ -4,25 +4,32 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
-import Store from './Components/Pages/Store/Store';
+import Storage from './Components/Pages/Storage/Storage';
 import NotFound from './Components/Pages/NotFound/NotFound';
-import NavBar from './Components/NavBar/NavBar';
+import SideBar from './Components/SideBar/SideBar';
+import Header from './Components/Common/Header';
+
 
 const rutas = createBrowserRouter(
   [
     {path:'/', element: <Home />},
     {path:'/about', element: <About />},
     {path:'/contact', element: <Contact />},
-    {path:'/store', element: <Store />},
+    {path:'/storage', element: <Storage />},
     {path:'*', element: <NotFound />},
   ]
 );
 
 function App () {
   return (
-    <div>
-    <NavBar />
+    <div className="app-container">
+      <div className="sideBar">
+        <SideBar />
+      </div>
+      <div className="content">
+        //Aca va el BANNER
     <RouterProvider router={rutas} />
+    </div>
     </div>
   );
 }

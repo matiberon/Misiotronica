@@ -1,11 +1,12 @@
 import React from 'react';
+import './Storage.css';
 import Card from '../../Card/Card';
 import Productos from '../../Repositories/Productos';
 
-const Store = () => {
+const Storage = () => {
     return (
-        <div className = "store">
-            <h1>STORE</h1>
+        <div className = "storage">
+            <h1>Tienda online</h1>
             <div class="galeria">
                 {Productos.map(function (elem) {
                     return (
@@ -23,4 +24,4 @@ const Store = () => {
     );
 };
 
-export default Store;
+export default Storage;

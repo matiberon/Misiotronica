@@ -7,6 +7,9 @@ import Producto6 from '../../assets/Productos/Producto6.jpg'
 import Producto7 from '../../assets/Productos/Producto7.jpg'
 import Producto8 from '../../assets/Productos/Producto8.jpg'
 import Producto9 from '../../assets/Productos/Producto9.jpg'
+import Producto10 from '../../assets/Productos/Producto10.jpg'
+import Producto11 from '../../assets/Productos/Producto11.jpg'
+import Producto12 from '../../assets/Productos/Producto12.jpg'
 
 const Productos = [
     {imagen: Producto1, nombre: "Zocalo-zif-48-patas", descripcion: "El Zocalo Zif  es un Conector de 48 pines Compatible con IC", precio: "$2100"},
@@ -18,6 +21,9 @@ const Productos = [
     {imagen: Producto7, nombre: "Modulo Receptor Amplificador de Audio Bluetooth BK8000L", descripcion: "Perfecto para proyectos DIY como parlantes bluetooth", precio: "$1920"},
     {imagen: Producto8, nombre: "Módulo Wifi Esp8266 Esp01", descripcion: "Chip altamente integrado, diseñado para aplicaciones donde se requiera conectividad a bajo costo.", precio: "$1806"},
     {imagen: Producto9, nombre: "Motor modelo 130 - DC 3V", descripcion: "Mini Motor 130, ideal para Proyectos de ciencia y robotica", precio: "$4200"},
+    {imagen: Producto10, nombre: "Modulo temporizador con salida de rele", descripcion: "Compatible con Arduino y Raspberry", precio: "$3.080"},
+    {imagen: Producto11, nombre: "Modulo sensor de nivel de agua", descripcion: "Módulo sensor de detección de nivel de agua de alta calidad para Arduino.", precio: "$712"},
+    {imagen: Producto12, nombre: "Sensor de huella digital R305", descripcion: "sensor biométrico de huella digital", precio: "$6.992"},
 ]
 
 export default Productos;
