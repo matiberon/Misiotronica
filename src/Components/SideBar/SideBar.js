@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './SideBar.css';
+import LogoSideBar from '../../assets/LogoSideBar.png';
 
 const SideBar = () => {
     return (
@@ -13,13 +14,16 @@ const SideBar = () => {
               <a href="/about">Sobre nosotros</a>
             </li>
             <li>
-              <a href="/storage">Tienda</a>
+              <a href="/shop">Tienda</a>
             </li>
             <li>
               <a href="/contact">Contacto</a>
             </li>
           </ul>
         </nav>
+        <div className="logo-container">
+        <img src={LogoSideBar} alt="Logo" className="logo" />
+      </div>
       </div>
     );
   };

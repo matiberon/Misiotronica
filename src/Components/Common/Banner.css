@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #3075bb;
+    color: white;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 1000;
+  }

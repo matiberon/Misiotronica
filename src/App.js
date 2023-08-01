@@ -4,10 +4,11 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
-import Storage from './Components/Pages/Storage/Storage';
+import Shop from './Components/Pages/Shop/Shop';
 import NotFound from './Components/Pages/NotFound/NotFound';
 import SideBar from './Components/SideBar/SideBar';
-import Header from './Components/Common/Header';
+import Banner from './Components/Common/Banner';
+import Header from './Components/Header/Header';
 
 
 const rutas = createBrowserRouter(
@@ -15,7 +16,7 @@ const rutas = createBrowserRouter(
     {path:'/', element: <Home />},
     {path:'/about', element: <About />},
     {path:'/contact', element: <Contact />},
-    {path:'/storage', element: <Storage />},
+    {path:'/shop', element: <Shop />},
     {path:'*', element: <NotFound />},
   ]
 );
@@ -27,10 +28,11 @@ function App () {
         <SideBar />
       </div>
       <div className="content">
-        //Aca va el BANNER
-    <RouterProvider router={rutas} />
-    </div>
-    </div>
+        <Banner />
+        <Header />
+        <RouterProvider router={rutas} />
+      </div> 
+    </div>  
   );
 }
 

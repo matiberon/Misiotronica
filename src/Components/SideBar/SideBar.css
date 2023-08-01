@@ -1,14 +1,16 @@
-
   .sidebar {
     height: 100%;
-    width: 250px;
+    width: 120px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #333;
+    background-color: #3075bb;
     padding-top: 60px;
     transition: 0.3s;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .sidebar nav {
@@ -32,4 +34,18 @@
   
   .sidebar a:hover {
     color: #ddd;
+  }
+
+  .logo-container {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 80px;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
   }
