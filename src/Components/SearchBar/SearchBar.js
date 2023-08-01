@@ -35,8 +35,6 @@ const SearchBar = () => {
               <li key={producto.nombre}>
                 <img src={producto.imagen} alt={producto.nombre} />
                 <h3>{producto.nombre}</h3>
-                <p>{producto.descripcion}</p>
-                <p>{producto.precio}</p>
               </li>
             ))}
           </ul>

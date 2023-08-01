@@ -12,18 +12,18 @@ import Producto11 from '../../assets/Productos/Producto11.jpg'
 import Producto12 from '../../assets/Productos/Producto12.jpg'
 
 const Productos = [
-    {imagen: Producto1, nombre: "Zocalo-zif-48-patas", descripcion: "El Zocalo Zif  es un Conector de 48 pines Compatible con IC", precio: "$2100"},
-    {imagen: Producto2, nombre: "Transistor Rjh60f7bdpq Igbt N 600v 90a", descripcion: "Los transistores IGBT ofrecen tecnología de rendimiento optimo para UPS", precio: "$3104,96"},
-    {imagen: Producto3, nombre: "Set de 12 disipadores para raspberry pi", descripcion: "Ideal para Raspberry", precio: "$2100"},
-    {imagen: Producto4, nombre: "Regulador Velocidad Variador Dimmer Scr 2000w 220v", descripcion: "Puede graduar: velocidad, temperatura, intensidad.", precio: "$2600"},
-    {imagen: Producto5, nombre: "Modulo Amplificador de audio clase D Pam8610", descripcion: "Este modulo esta conformado por un amplificador de audio estero", precio: "$2300"},
-    {imagen: Producto6, nombre: "Modulo NE555", descripcion: "Timer Temporizador Relay Dc 5v Delay - 0 A 10 Segundos", precio: "$3100"},
-    {imagen: Producto7, nombre: "Modulo Receptor Amplificador de Audio Bluetooth BK8000L", descripcion: "Perfecto para proyectos DIY como parlantes bluetooth", precio: "$1920"},
+    {imagen: Producto1, nombre: "Zocalo Zif 48 patas", descripcion: "El Zocalo Zif es un Conector de 48 pines compatible con IC.", precio: "$2100"},
+    {imagen: Producto2, nombre: "Transistor Igbt N 600v 90a", descripcion: "Los transistores IGBT ofrecen tecnología de rendimiento óptimo para UPS.", precio: "$3104,96"},
+    {imagen: Producto3, nombre: "Set de 12 disipadores pi", descripcion: "Ideal para Raspberry.", precio: "$2100"},
+    {imagen: Producto4, nombre: "Regulador velocidad Dimmer Scr 2000w 220v", descripcion: "Puede graduar velocidad, temperatura, intensidad.", precio: "$2600"},
+    {imagen: Producto5, nombre: "Módulo amplificador de audio clase D Pam8610", descripcion: "Este módulo está conformado por un amplificador de audio estéreo.", precio: "$2300"},
+    {imagen: Producto6, nombre: "Módulo NE555", descripcion: "Timer temporizador relay Dc 5v Delay - 0 A 10 Segundos", precio: "$3100"},
+    {imagen: Producto7, nombre: "Módulo Receptor Amplificador de Audio Bluetooth BK8000L", descripcion: "Perfecto para proyectos DIY como parlantes bluetooth.", precio: "$1920"},
     {imagen: Producto8, nombre: "Módulo Wifi Esp8266 Esp01", descripcion: "Chip altamente integrado, diseñado para aplicaciones donde se requiera conectividad a bajo costo.", precio: "$1806"},
-    {imagen: Producto9, nombre: "Motor modelo 130 - DC 3V", descripcion: "Mini Motor 130, ideal para Proyectos de ciencia y robotica", precio: "$4200"},
-    {imagen: Producto10, nombre: "Modulo temporizador con salida de rele", descripcion: "Compatible con Arduino y Raspberry", precio: "$3.080"},
-    {imagen: Producto11, nombre: "Modulo sensor de nivel de agua", descripcion: "Módulo sensor de detección de nivel de agua de alta calidad para Arduino.", precio: "$712"},
-    {imagen: Producto12, nombre: "Sensor de huella digital R305", descripcion: "sensor biométrico de huella digital", precio: "$6.992"},
+    {imagen: Producto9, nombre: "Motor modelo 130 - DC 3V", descripcion: "Mini Motor 130, ideal para Proyectos de ciencia y robótica.", precio: "$4200"},
+    {imagen: Producto10, nombre: "Módulo temporizador con salida de rele", descripcion: "Compatible con Arduino y Raspberry.", precio: "$3.080"},
+    {imagen: Producto11, nombre: "Módulo sensor de nivel de agua", descripcion: "Módulo sensor de detección de nivel de agua de alta calidad para Arduino.", precio: "$712"},
+    {imagen: Producto12, nombre: "Sensor de huella digital R305", descripcion: "Sensor biométrico de huella digital", precio: "$6.992"},
 ]
 
 export default Productos;

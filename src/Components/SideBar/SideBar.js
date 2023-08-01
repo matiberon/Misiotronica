@@ -24,6 +24,7 @@ const SideBar = () => {
         <div className="logo-container">
         <img src={LogoSideBar} alt="Logo" className="logo" />
       </div>
+      <p>MISIOTRONICA</p>
       </div>
     );
   };

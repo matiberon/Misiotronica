@@ -1,51 +1,59 @@
 .contact {
-    padding: 20px;
-    margin-left: 150px;
-    text-align: center;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .contact h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .contact p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 0.5;
-  }
-  
-  .contact form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact label {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .contact input,
-  .contact textarea {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  .contact textarea {
-    resize: vertical;
-  }
-  
-  .contact input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .contact input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
+  padding: 20px;
+  margin-left: 100px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.contact h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 500px; 
+  margin: 0 auto;
+}
+
+.contact textarea {
+  resize: vertical;
+  max-width: 500px; 
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.contact input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #0056b3;
+}

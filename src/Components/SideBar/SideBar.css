@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     background-color: #3075bb;
-    padding-top: 60px;
+    padding-top: 50px;
     transition: 0.3s;
     z-index: 1;
     display: flex;
@@ -41,11 +41,16 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 80px;
+    align-items: flex-end;   
   }
   
   .logo {
     width: 120px;
     height: auto;
+  }
+
+  .sidebar p {
+    color: #ddd;
+    margin-top: 0;
+    padding-bottom: 50px;
   }

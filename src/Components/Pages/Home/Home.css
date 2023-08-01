@@ -1,6 +1,8 @@
 .home {
-    padding: 20px;
     margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .home h1 {
@@ -10,3 +12,23 @@
   .home p {
     margin-bottom: 10px;
   }
+
+  .texto {
+    flex: 1;
+    max-width: 100%;
+   
+    box-sizing: border-box;
+  }
+
+  .slider {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .botonShop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  

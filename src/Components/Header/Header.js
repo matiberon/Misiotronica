@@ -4,7 +4,7 @@ import SearchBar from '../SearchBar/SearchBar';
 const Header = () => {
     return (
         <div className = "header">
-        <SearchBar />
+         <SearchBar />
         </div>
     )
 };
