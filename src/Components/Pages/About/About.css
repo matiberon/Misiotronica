@@ -1,6 +1,7 @@
 .about {
     padding: 20px;
-    margin-left: 150px;
+    margin-left: 110px;
+    max-width: 100%;
   }
   
   .about h1 {

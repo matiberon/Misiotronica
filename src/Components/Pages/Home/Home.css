@@ -1,8 +1,9 @@
 .home {
-    margin-left: 150px;
+    margin-left: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 100%;
   }
   
   .home h1 {
@@ -16,7 +17,6 @@
   .texto {
     flex: 1;
     max-width: 100%;
-   
     box-sizing: border-box;
   }
 
@@ -30,5 +30,6 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 20px;
   }
   
